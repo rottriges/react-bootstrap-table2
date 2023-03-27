@@ -4106,7 +4106,7 @@
   "resolved" "https://registry.npmjs.org/clone/-/clone-1.0.4.tgz"
   "version" "1.0.4"
 
-"clone@^2.1.1":
+"clone@^2.1.1", "clone@^2.1.2":
   "integrity" "sha512-3Pe/CF1Nn94hyhIYpjtiLhdCoEoz0DqQ+988E9gmeEdQZlojxnOb74wctFyuwWQHzqyf9X7C7MG8juUpqBJT8w=="
   "resolved" "https://registry.npmjs.org/clone/-/clone-2.1.2.tgz"
   "version" "2.1.2"
@@ -5683,6 +5683,11 @@
   "resolved" "https://registry.npmjs.org/fast-deep-equal/-/fast-deep-equal-3.1.3.tgz"
   "version" "3.1.3"
 
+"fast-fifo@^1.1.0":
+  "integrity" "sha512-Kl29QoNbNvn4nhDsLYjyIAaIqaJB6rBx5p3sL9VjaefJ+eMFBWVZiaoguaoZfzEKr5RhAti0UgM8703akGPJ6g=="
+  "resolved" "https://registry.npmjs.org/fast-fifo/-/fast-fifo-1.1.0.tgz"
+  "version" "1.1.0"
+
 "fast-glob@^3.2.9":
   "integrity" "sha512-DVj4CQIYYow0BlaelwK1pHl5n5cRSJfM60UA0zK891sVInoPri2Ekj7+e1CT3/3qxXenpI+nBBmQAcJPJgaj4w=="
   "resolved" "https://registry.npmjs.org/fast-glob/-/fast-glob-3.2.12.tgz"
@@ -6191,9 +6196,9 @@
   "resolved" "https://registry.npmjs.org/glob-to-regexp/-/glob-to-regexp-0.4.1.tgz"
   "version" "0.4.1"
 
-"glob-watcher@BonnierNews/glob-watcher#semver:^5.2.0":
-  "resolved" "git+ssh://git@github.com/BonnierNews/glob-watcher.git#6fe1e2cf4a7d66fc470be1a09bc9533ba0043dc4"
-  "version" "5.2.2"
+"glob-watcher@BonnierNews/glob-watcher#semver:^6.0.0":
+  "resolved" "git+ssh://git@github.com/BonnierNews/glob-watcher.git#19bcfd1e8e956d0ca6115869e7793a3419295d10"
+  "version" "6.0.1"
   dependencies:
     "anymatch" "^3.1.2"
     "async-done" "^2.0.0"
@@ -6398,13 +6403,14 @@
     "tslib" "^1.10.0"
 
 "gulp@BonnierNews/gulp#semver:^4.2.0":
-  "resolved" "git+ssh://git@github.com/BonnierNews/gulp.git#bce3e9cb387d9000b3004015e5831cf69388178c"
-  "version" "4.2.2"
+  "integrity" "sha512-a/6Dout8stCgEQsGd1QcaHxt15g6tTn1+XgvcsJc36f6a/yRS2F4Jbbb7LMxx8zJrcwTpp7TuJqixCqVAX1P3w=="
+  "resolved" "git+ssh://git@github.com/BonnierNews/gulp.git"
+  "version" "5.0.2"
   dependencies:
-    "glob-watcher" "BonnierNews/glob-watcher#semver:^5.2.0"
+    "glob-watcher" "BonnierNews/glob-watcher#semver:^6.0.0"
     "gulp-cli" "^2.3.0"
     "undertaker" "^1.3.0"
-    "vinyl-fs" "BonnierNews/vinyl-fs#semver:^3.2.0"
+    "vinyl-fs" "BonnierNews/vinyl-fs#semver:^4.0.0"
 
 "gulplog@^1.0.0":
   "integrity" "sha512-hm6N8nrm3Y08jXie48jsC55eCZz9mnb4OirAStEk2deqeyhXU3C1otDVh+ccttMuc1sBi6RX6ZJ720hs9RCvgw=="
@@ -9953,6 +9959,11 @@
   "resolved" "https://registry.npmjs.org/queue-microtask/-/queue-microtask-1.2.3.tgz"
   "version" "1.2.3"
 
+"queue-tick@^1.0.1":
+  "integrity" "sha512-kJt5qhMxoszgU/62PLP1CJytzd2NKetjSRnyuj31fDd3Rlcz3fzlFdFLD1SItunPwyqEOkca6GbV612BWfaBag=="
+  "resolved" "https://registry.npmjs.org/queue-tick/-/queue-tick-1.0.1.tgz"
+  "version" "1.0.1"
+
 "quick-lru@^4.0.1":
   "integrity" "sha512-ARhCpm70fzdcvNQfPoy49IaanKkTlRWF2JMzqhcJbhSFRZv7nPTvZJdcY7301IPmvW+/p0RgIWnQDLJxifsQ7g=="
   "resolved" "https://registry.npmjs.org/quick-lru/-/quick-lru-4.0.1.tgz"
@@ -10180,16 +10191,7 @@
     "string_decoder" "^1.1.1"
     "util-deprecate" "^1.0.1"
 
-"readable-stream@^3.6.0":
-  "integrity" "sha512-BViHy7LKeTz4oNnkcLJ+lVSL6vpiFeX6/d3oSH8zCW7UxP2onchk+vTGB143xuFjHS3deTgkKoXXymXqymiIdA=="
-  "resolved" "https://registry.npmjs.org/readable-stream/-/readable-stream-3.6.0.tgz"
-  "version" "3.6.0"
-  dependencies:
-    "inherits" "^2.0.3"
-    "string_decoder" "^1.1.1"
-    "util-deprecate" "^1.0.1"
-
-"readable-stream@3":
+"readable-stream@^3.6.0", "readable-stream@3":
   "integrity" "sha512-BViHy7LKeTz4oNnkcLJ+lVSL6vpiFeX6/d3oSH8zCW7UxP2onchk+vTGB143xuFjHS3deTgkKoXXymXqymiIdA=="
   "resolved" "https://registry.npmjs.org/readable-stream/-/readable-stream-3.6.0.tgz"
   "version" "3.6.0"
@@ -11104,6 +11106,14 @@
   "resolved" "https://registry.npmjs.org/stream-shift/-/stream-shift-1.0.1.tgz"
   "version" "1.0.1"
 
+"streamx@^2.12.5":
+  "integrity" "sha512-+TWqixPhGDXEG9L/XczSbhfkmwAtGs3BJX5QNU6cvno+pOLKeszByWcnaTu6dg8efsTYqR8ZZuXWHhZfgrxMvA=="
+  "resolved" "https://registry.npmjs.org/streamx/-/streamx-2.13.2.tgz"
+  "version" "2.13.2"
+  dependencies:
+    "fast-fifo" "^1.1.0"
+    "queue-tick" "^1.0.1"
+
 "string_decoder@^1.1.1", "string_decoder@~1.1.1":
   "integrity" "sha512-n/ShnvDi6FHbbVfviro+WojiFzv+s8MPMHBczVePfUpDJLwoLT0ht1l4YwBCbi8pJAveEEdnkHyPyTP/mzRfwg=="
   "resolved" "https://registry.npmjs.org/string_decoder/-/string_decoder-1.1.1.tgz"
@@ -11313,6 +11323,13 @@
     "minizlib" "^2.1.1"
     "mkdirp" "^1.0.3"
     "yallist" "^4.0.0"
+
+"teex@^1.0.1":
+  "integrity" "sha512-eYE6iEI62Ni1H8oIa7KlDU6uQBtqr4Eajni3wX7rpfXD8ysFx8z0+dri+KWEPWpBsxXfxu58x/0jvTVT1ekOSg=="
+  "resolved" "https://registry.npmjs.org/teex/-/teex-1.0.1.tgz"
+  "version" "1.0.1"
+  dependencies:
+    "streamx" "^2.12.5"
 
 "temp-dir@^1.0.0":
   "integrity" "sha512-xZFXEGbG7SNC3itwBzI3RYjq/cEhBkx2hJuKGIUOcEULmkQExXiHat2z/qkISYsuR+IKumhEfKKbV5qXmhICFQ=="
@@ -11889,9 +11906,9 @@
   "resolved" "https://registry.npmjs.org/vary/-/vary-1.1.2.tgz"
   "version" "1.1.2"
 
-"vinyl-fs@BonnierNews/vinyl-fs#semver:^3.2.0":
-  "resolved" "git+ssh://git@github.com/BonnierNews/vinyl-fs.git#9545889038d198ae7d6141f5788960f81c68c0ab"
-  "version" "3.2.2"
+"vinyl-fs@BonnierNews/vinyl-fs#semver:^4.0.0":
+  "resolved" "git+ssh://git@github.com/BonnierNews/vinyl-fs.git#fef8f2dc000a6ede2be04ef3e0c48b77eddb1765"
+  "version" "4.0.1"
   dependencies:
     "fs-mkdirp-stream" "^1.0.0"
     "glob-stream" "^7.0.0"
@@ -11909,7 +11926,7 @@
     "through2" "^4.0.2"
     "to-through" "^2.0.0"
     "value-or-function" "^4.0.0"
-    "vinyl" "^2.2.1"
+    "vinyl" "3.0.0"
     "vinyl-sourcemap" "^1.1.0"
 
 "vinyl-sourcemap@^1.1.0":
@@ -11932,7 +11949,7 @@
   dependencies:
     "source-map" "^0.5.1"
 
-"vinyl@^2.0.0", "vinyl@^2.1.0", "vinyl@^2.2.1":
+"vinyl@^2.0.0", "vinyl@^2.1.0":
   "integrity" "sha512-LII3bXRFBZLlezoG5FfZVcXflZgWP/4dCwKtxd5ky9+LOtM4CS3bIRQsmR1KMnMW07jpE8fqR2lcxPZ+8sJIcw=="
   "resolved" "https://registry.npmjs.org/vinyl/-/vinyl-2.2.1.tgz"
   "version" "2.2.1"
@@ -11943,6 +11960,17 @@
     "cloneable-readable" "^1.0.0"
     "remove-trailing-separator" "^1.0.1"
     "replace-ext" "^1.0.0"
+
+"vinyl@3.0.0":
+  "integrity" "sha512-rC2VRfAVVCGEgjnxHUnpIVh3AGuk62rP3tqVrn+yab0YH7UULisC085+NYH+mnqf3Wx4SpSi1RQMwudL89N03g=="
+  "resolved" "https://registry.npmjs.org/vinyl/-/vinyl-3.0.0.tgz"
+  "version" "3.0.0"
+  dependencies:
+    "clone" "^2.1.2"
+    "clone-stats" "^1.0.0"
+    "remove-trailing-separator" "^1.1.0"
+    "replace-ext" "^2.0.0"
+    "teex" "^1.0.1"
 
 "w3c-xmlserializer@^4.0.0":
   "integrity" "sha512-d+BFHzbiCx6zGfz0HyQ6Rg69w9k19nviJspaj4yNscGjrHu94sVP+aRm75yEbCh+r2/yR+7q6hux9LVtbuTGBw=="
