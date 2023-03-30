@@ -94,6 +94,15 @@ const loaders = [
 
 // Export a function. Accept the base config as the only param.
 module.exports = {
+  stories: ["../src/**/*.stories.@(js|mdx)"],
+  addons: [
+    "@storybook/addon-actions",
+    "@storybook/addon-console",
+    "@storybook/addon-links",
+    "@storybook/addon-essentials",
+    "@storybook/addon-interactions",
+  ],
+  framework: "@storybook/react",
   webpackFinal: async (config, { configType }) => {
     // `configType` has a value of 'DEVELOPMENT' or 'PRODUCTION'
     // You can change the configuration based on that.

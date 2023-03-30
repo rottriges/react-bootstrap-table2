@@ -22,5 +22,4 @@ const componentDecorator = (story) => (
 addDecorator((storyFn, context) => withConsole()(storyFn)(context));
 
 addDecorator(componentDecorator);
-
 configure(loadStories, module);
